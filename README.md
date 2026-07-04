@@ -10,7 +10,7 @@ Acute stroke codes are time-sensitive, communication-heavy clinical events. Stro
 
 ## The Vision
 
-My long-term vision is an **AI Stroke Copilot**: a workflow-aware orchestration layer that helps organize stroke-code information, support physician decision-making, reduce manual documentation burden, and coordinate updates across the care team.
+My long-term goal is to build an **AI-powered Stroke Copilot**: a multi-agent orchestration layer that seamlessly manages state across multiple active stroke codes, reduces manual data entry, and provides real-time clinical decision support.
 
 In the future, this orchestration layer could manage case state across multiple simultaneous stroke codes, route information to specialized clinical AI modules, and surface real-time updates such as imaging status, NIHSS findings, treatment eligibility, and quality metrics.
 
