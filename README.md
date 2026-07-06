@@ -20,13 +20,21 @@ The current projects are intentionally modular. Each demo solves a specific work
 
 | Module | Clinical Pain Point Solved | Status |
 | :--- | :--- | :--- |
-| [Stroke-Time-Tracker](https://github.com/drodaniel1234/stroke-time-tracker-v1.3) | Captures key stroke-code workflow times | Built |
-| [NIHSS Conversational Assistant](https://github.com/drodaniel1234/NIHSS-Mobile-Assistant-v1.0) | Structures neurologic exam capture | Built |
-| [Quality Metric Extractor](https://github.com/drodaniel1234/telestroke-dashboard) | Reduces manual abstraction burden | Built |
-| Thrombolytic Decision Support | Organizes IV thrombolysis eligibility and contraindications | Next |
+| [Stroke-Time-Tracker](https://github.com/drodaniel1234/stroke-time-tracker-v1.3) | Captures key stroke-code workflow times | Early prototype |
+| [NIHSS Conversational Assistant](https://github.com/drodaniel1234/NIHSS-Mobile-Assistant-v1.0) | Structures neurologic exam capture | Early prototype |
+| [Quality Metric Extractor](https://github.com/drodaniel1234/telestroke-dashboard) | Reduces manual abstraction burden | Early prototype |
+| [Telestroke IVT Assistant](https://github.com/drodaniel1234/telestroke-ivt-assistant) | Organizes IV thrombolysis eligibility, contraindications, missing data, and source-text tracing | Early prototype |
 
 ## Roadmap
 
-Future modules may include imaging status monitoring, parallel team communication support, and a multimodal coordination layer that connects clinical agents, workflow data, and physician-facing interaction tools.
+Future modules may include Clinical Reader Mode for transforming cluttered EHR documentation into a standardized clinician-centered reading layer, imaging status monitoring, parallel team communication support, and a multimodal coordination layer that connects clinical agents, workflow data, and physician-facing interaction tools.
 
 The goal is to move from standalone prototypes toward a modular, multi-agent stroke workflow assistant that can support real-time clinical coordination during acute stroke care.
+
+## Safety and Evaluation Framing
+
+These prototypes use synthetic or no-PHI workflows and are not intended for clinical use.
+
+Across the modules, I am exploring evaluation and guardrail patterns such as source-text tracing, missing-data prompts, separation of documented facts from inferred reasoning, hallucination avoidance, and clinician-in-the-loop decision support.
+
+The goal is not to automate physician judgment, but to make high-stakes stroke workflows more structured, auditable, and clinically useful.
